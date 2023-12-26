@@ -79,44 +79,44 @@ The Hotel Management Application simplifies the process of handling room reserva
 //sample Java code
 
 do {
-			menu();
-			System.out.print("Please Enter your choice: ");
-			int choice = sc.nextInt();
-			switch(choice) {
-				case 1:
-					System.out.println("Room Reservation.");
-					dao.addReservation();
-					break;
+	menu();
+	System.out.print("Please Enter your choice: ");
+	int choice = sc.nextInt();
+	switch(choice) {
+		case 1:
+			System.out.println("Room Reservation.");
+			dao.addReservation();
+			break;
 					
-				case 2:
-					System.out.println("View Reservations.");
-					dao.viewReservation();
-					break;
+		case 2:
+			System.out.println("View Reservations.");
+			dao.viewReservation();
+			break;
 					
-				case 3:
-					System.out.println("Getting Room Number.");
-					dao.getRoomNumber();
-					break;
+		case 3:
+			System.out.println("Getting Room Number.");
+			dao.getRoomNumber();
+			break;
 					
-				case 4:
-					System.out.println("Updating Reservation.");
-					dao.updateReservation();
-					break;
+		case 4:
+			System.out.println("Updating Reservation.");
+			dao.updateReservation();
+			break;
 					
-				case 5:
-					System.out.println("Deleting Reservation");
-					dao.deleteReservations();
-					break;
+		case 5:
+			System.out.println("Deleting Reservation");
+			dao.deleteReservations();
+			break;
 					
-				case 0:
-					dao.exit();
-					System.out.println("\nThank For Using Hotel Reservation System.");
-					order = false;
-					break;
+		case 0:
+			dao.exit();
+			System.out.println("\nThank For Using Hotel Reservation System.");
+			order = false;
+			break;
 					
-				default:
-					System.out.print("Please enter valid choice:");
-					break;
-				}
-			
-		}while(order);
+		default:
+			System.out.print("Please enter valid choice:");
+			break;
+	}
+
+}while(order);
