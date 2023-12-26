@@ -1,5 +1,7 @@
 # Hotel Management Application
 
+![image.info](hotel-mgmt-snapshot.png)
+
 ## Overview
 
 The Hotel Management Application is a simple Java application that utilizes JDBC to interact with a MySQL database as its backend. The application allows users to perform various tasks related to room reservations within a hotel.
